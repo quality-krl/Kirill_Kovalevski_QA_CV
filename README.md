@@ -10,7 +10,7 @@ QA Engineer with hands-on, end-to-end documentation projects on real Israeli pro
 
 ## 📄 CV
 
-![Kirill Kovalevski — QA Engineer CV](cv_preview.png)
+![Kirill Kovalevski — QA Engineer CV](assets/cv_preview.png)
 
 ---
 
