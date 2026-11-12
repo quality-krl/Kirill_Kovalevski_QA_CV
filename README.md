@@ -1,86 +1,112 @@
-<!-- markdownlint-disable MD033 MD041 -->
 
-# Kirill Kovalevski — QA Engineer
+# Kirill Kovalevski | QA Engineer
 
-### Manual QA · API Testing · Automation Track (Python · Playwright)
+### Manual Testing · QA Automation · API Testing
 
-QA engineer with hands-on, end-to-end documentation projects on real Israeli production systems, following the **IEEE 830** and **IEEE 829** standards — **188 test cases** across two full projects (**FreeTV iOS** and **KSP**). Manual QA specialist currently expanding into automation. **Available for immediate start.**
+QA Engineer with hands-on experience in manual testing, REST API testing, and automation using **Python, Playwright, and Pytest**.
 
-📄 **[Download CV (PDF)](Kirill_Kovalevski_QA_CV_GitHub.pdf)**
-
----
-
-## 📄 CV
-
-![Kirill Kovalevski — QA Engineer CV](assets/cv_preview.png?v=2)
+My portfolio includes **61 collected automation test cases** and **188 manual test cases** across FreeTV and KSP, with structured test documentation, defect analysis, and risk-based testing.
 
 ---
 
-## 🚀 Portfolio Projects
+## 📄 My Resume | קורות חיים
 
-### 🔹 FreeTV iOS — Full QA Documentation
-End-to-end manual QA on an Israeli iOS streaming app (production environment). Complete IEEE-standard suite — **SRS** (IEEE 830), **STP** (16 sections, IEEE 829), **STD**, and **STR** — with **123 test cases** across Functional, Non-Functional, API, and Database suites, covering **36 functional + 19 non-functional requirements**. Filed 9 JIRA defects, including a security finding (OTP valid beyond 60 minutes) documented with full analysis. API testing via Postman and Fiddler.
+### 🌐 Choose a language | בחר שפה
 
-🔗 **[Repository](https://github.com/quality-krl/FreeTV_iOS_E2E_QA_Project_STR_STD_STP_SRS)** &nbsp;·&nbsp; 📄 **[Open documentation (PDF)](https://quality-krl.github.io/FreeTV_iOS_E2E_QA_Project_STR_STD_STP_SRS/docs/FreeTV_QA_Documentation.pdf)**
+[🇬🇧 English — View Resume](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=en) | [🇮🇱 עברית — צפייה בקורות חיים](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=he)
 
-### 🔹 KSP — E-Commerce Manual QA
-Manual QA on an Israeli e-commerce website (Web). Full **STD** and **STR** documents covering Scope, Test Approach, Environment, and RTM. **65 test scenarios** executed — 48 passed, 15 failed, 2 not run — with defect clusters identified in Search (5 bugs) and Product page / Cart (4 bugs), and a **Conditional Go** release recommendation with Release Notes.
+### Download PDF
 
-🔗 **[Repository](https://github.com/quality-krl/KSP-STD-STR)** &nbsp;·&nbsp; 📄 **[Open documentation (PDF)](https://quality-krl.github.io/KSP-STD-STR/docs/KSP_Website_STD%20_STR%20_Kirill%20Kovalevski.pdf)**
-
-### 🔹 EarGym TestLab — Interactive Ear Trainer
-A bilingual (EN/HE) interactive web app that tests musical pitch recognition — built to illustrate the QA mindset: input → decision → feedback → adjust, the same loop as reproduce → isolate → verify → fix.
-
-🔗 **[Live demo](https://quality-krl.github.io/EarGym-TestLab/)**
-
-### 🔹 Precision Playbook — QA Process & Bug-Report Tool
-A bilingual (HE/EN) interactive page featuring a "4×4 Protocol" bug-report generator — a hands-on tool that turns an observation into a clear, reproducible defect report. Demonstrates evidence-based QA thinking and clean reporting.
-
-🔗 **[Live demo](https://quality-krl.github.io/PrecisionPlaybook/)**
+- [English Resume (PDF)](Kirill_Kovalevski_CV_EN.pdf)
+- [קורות חיים בעברית (PDF)](Kirill_Kovalevski_CV_HE.pdf)
 
 ---
 
-## 🧰 Core Skills
+## 🚀 Featured QA Projects
 
-| Area                      | Tools & Technologies                                  |
-| ------------------------- | ----------------------------------------------------- |
-| Test Management & Tracking| TestRail · JIRA                                       |
-| API & Debugging           | Postman · Fiddler · Chrome DevTools                   |
-| Automation Track (in progress) | Python · Playwright · Page Object Model          |
-| Code & Markup             | Python · SQL · HTML · CSS · XML · JSON                |
-| Methodologies             | SRS · STP · STD · STR · RTM · IEEE 830 / 829 · Agile  |
-| AI-assisted QA            | Test design · Documentation (ChatGPT)                 |
-| Platforms                 | iOS · Android · Windows                               |
-| Version Control           | Git · GitHub                                          |
+### 1. Sylius — QA Automation
+
+**Python · Playwright · Pytest · REST API**
+
+E-commerce QA automation project featuring **61 collected test cases** across UI and API testing.
+
+- Modular automation framework using Page Object Model.
+- Pytest fixtures, parametrization, Faker, and Allure.
+- UI coverage for authentication, registration, and shopping cart.
+- API tests covering products, cart operations, and checkout scenarios.
+- Positive, negative, and boundary test scenarios.
+- HTTP response validation and JSON parsing.
+- Documented known issues in the demo environment.
+
+**Status:** In development. Test collection does not imply all tests pass.
+
+[View Sylius Automation Project](https://github.com/quality-krl/sylius-automation)
+
+### 2. FreeTV — iOS Manual QA
+
+**123 Test Cases · SRS · STP · STD · STR**
+
+End-to-end manual QA project for an Israeli streaming application.
+
+- 36 functional requirements.
+- 19 non-functional requirements covered.
+- API inspection using Postman and Fiddler.
+- Defect tracking and documentation in Jira.
+- Documented an OTP security concern.
+
+[Open FreeTV Documentation (PDF)](https://quality-krl.github.io/FreeTV_iOS_E2E_QA_Project_STR_STD_STP_SRS/docs/FreeTV_QA_Documentation.pdf)
+
+### 3. KSP — E-Commerce Manual QA
+
+**65 Test Cases · STD · STR · RTM**
+
+Manual testing of a production e-commerce website.
+
+- 48 passed, 15 failed, 2 not executed.
+- Tested authentication, search, products, and shopping cart.
+- Analyzed defect clusters and release risks.
+- Delivered a Conditional Go recommendation.
+
+[Open KSP Documentation (PDF)](https://quality-krl.github.io/KSP-STD-STR/docs/KSP_Website_STD%20_STR%20_Kirill%20Kovalevski.pdf)
+
+---
+
+## 🛠 Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Automation | Python, Playwright, Pytest, POM, Fixtures, DDT, Faker |
+| API Testing | REST API, Requests, HTTP, Postman, Fiddler |
+| Test Management | Jira, TestRail, Allure |
+| Data & Tools | SQL, MySQL, JSON, XML, Git, GitHub, PyCharm, DevTools |
+| Test Design | BVA, EP, Decision Tables, State Transitions |
+| Methodologies | Agile, Scrum, SDLC, STLC, E2E, Regression, Risk-based Testing |
+| Documentation | SRS, STP, STD, STR, RTM |
+| AI-assisted QA | Test Design, Defect Analysis, Debugging, Documentation |
 
 ---
 
 ## 🎓 Education
 
-- **2025–2026** — Professional QA Training · **המכללה לאוטומציה** (mentor: Gal Matalon)
-  Manual testing · Python · Page Object Model · Playwright · API · automation track
-- **2018–2022** — B.A. English Literature & Romance Studies · **The Hebrew University of Jerusalem**
-  English, French, and Italian language & literature
+**Professional QA Training (2025–2026)**  
+The Automation College — Gal Matalon
+
+**B.A. English Literature & Romance Studies (2018–2022)**  
+The Hebrew University of Jerusalem
 
 ---
 
-## 💼 Experience
+## 🌍 Languages
 
-- **2024 – present** — Security Team, Ashdod Port
-  Strict procedure adherence, focus under pressure, and clear standards — directly transferable to disciplined testing and precise documentation.
-- **2022 – 2024** — English Teacher, Burlington English
-  Developed the ability to explain complex processes clearly — directly transferable to QA documentation and communication with development teams.
+Hebrew · English · Russian — Fluent
 
----
-
-## 🌐 Languages
-
-Hebrew · English · Russian (native) &nbsp;|&nbsp; French · Italian (working proficiency)
+French · Italian — Good proficiency
 
 ---
 
 ## 📬 Contact
 
-📧 Kirill.Kovalevski@mail.huji.ac.il
-💼 [LinkedIn](https://www.linkedin.com/in/kirill-kovalevski-b6a258257/)
-💻 [GitHub](https://github.com/quality-krl)
+- [Email](mailto:kirill.kovalevski.qa@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/kirill-kovalevski-b6a258257/)
+- [GitHub](https://github.com/quality-krl)
+- [Personal Portfolio](https://quality-krl.github.io/PersonalSite/)
