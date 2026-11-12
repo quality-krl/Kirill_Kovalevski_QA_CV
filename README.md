@@ -13,7 +13,7 @@ My portfolio includes **61 collected automation test cases** and **188 manual te
 
 ### 🌐 Choose a language | בחר שפה
 
-[🇬🇧 English — View Resume](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=en) | [🇮🇱 עברית — צפייה בקורות חיים](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=he)
+[USA English — View Resume](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=en) | [🇮🇱 עברית — צפייה בקורות חיים](https://quality-krl.github.io/Kirill_Kovalevski_QA_CV/?lang=he)
 
 ### Download PDF
 
