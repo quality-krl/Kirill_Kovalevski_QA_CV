@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kirill Kovalevski - QA Engineer Resume. Manual Testing, Python, Playwright, Pytest and API Testing." />
+  <title>Kirill Kovalevski | QA Engineer CV</title>
+
+  <style>
+    :root {
+      --bg: #f3f6fb;
+      --surface: #ffffff;
+      --navy: #102c4c;
+      --blue: #1766aa;
+      --border: #dce5ef;
+      --muted: #60748b;
+      --shadow: 0 10px 35px rgba(16,44,76,0.07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--navy);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 34px 20px;
+    }
+
+    header h1 {
+      font-size: clamp(26px, 4vw, 36px);
+      margin: 0 0 10px;
+    }
+
+    header p {
+      color: #d0dfef;
+      margin: 0;
+      font-size: 15px;
+    }
+
+    main {
+      width: min(100% - 32px, 960px);
+      margin: 32px auto 56px;
+    }
+
+    .resume-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .toolbar {
+      padding: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .toolbar h2 {
+      margin: 0 0 6px;
+      font-size: 22px;
+    }
+
+    .toolbar p {
+      color: var(--muted);
+      margin: 0;
+      font-size: 13px;
+    }
+
+    .languages {
+      display: flex;
+      background: #edf2f8;
+      padding: 5px;
+      border-radius: 10px;
+      gap: 5px;
+    }
+
+    button {
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .lang-btn {
+      padding: 10px 20px;
+      border: 0;
+      border-radius: 7px;
+      background: transparent;
+      color: var(--navy);
+      font-weight: bold;
+    }
+
+    .lang-btn.active {
+      background: var(--blue);
+      color: white;
+      box-shadow: 0 2px 8px rgba(23,102,170,0.18);
+    }
+
+    .actions {
+      padding: 18px 22px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .action-btn {
+      display: inline-block;
+      padding: 12px 19px;
+      text-decoration: none;
+      border-radius: 9px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .primary {
+      color: white;
+      background: var(--blue);
+    }
+
+    .secondary {
+      color: var(--blue);
+      border: 1px solid var(--blue);
+      background: white;
+    }
+
+    .pdf-container {
+      padding: 18px;
+      background: #e8edf4;
+    }
+
+    iframe {
+      width: 100%;
+      height: min(1100px, 80vh);
+      border: none;
+      background: white;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .notice {
+      padding: 13px 22px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid #75b8ff;
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin-top: 16px;
+      }
+
+      .toolbar {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+      }
+
+      .languages {
+        justify-content: center;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .pdf-container {
+        padding: 8px;
+      }
+
+      iframe {
+        height: 70vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Kirill Kovalevski</h1>
+    <p>QA Engineer | Manual &amp; Automation Testing</p>
+  </header>
+
+  <main>
+    <section class="resume-card" aria-label="Resume viewer">
+      <div class="toolbar">
+        <div>
+          <h2 id="section-title">Resume</h2>
+          <p id="section-description">
+            Select a language to view my resume.
+          </p>
+        </div>
+
+        <div class="languages" aria-label="Resume language">
+          <button
+            id="he-btn"
+            class="lang-btn"
+            type="button"
+            aria-pressed="false"
+            onclick="changeLanguage('he')"
+          >
+            עברית
+          </button>
+
+          <button
+            id="en-btn"
+            class="lang-btn"
+            type="button"
+            aria-pressed="true"
+            onclick="changeLanguage('en')"
+          >
+            English
+          </button>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a
+          id="download-btn"
+          class="action-btn primary"
+          href="./Kirill_Kovalevski_CV_EN.pdf"
+          download
+        >
+          Download CV
+        </a>
+
+        <a
+          id="view-btn"
+          class="action-btn secondary"
+          href="./Kirill_Kovalevski_CV_EN.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open PDF
+        </a>
+      </div>
+
+      <div class="pdf-container">
+        <iframe
+          id="pdf-viewer"
+          title="English resume PDF"
+          src="./Kirill_Kovalevski_CV_EN.pdf"
+        ></iframe>
+      </div>
+
+      <div class="notice" id="notice">
+        If the PDF does not appear on your device,
+        use the Open PDF button.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/quality-krl"
+       target="_blank" rel="noopener noreferrer">GitHub</a>
+    &nbsp;·&nbsp;
+    <a href="https://quality-krl.github.io/PersonalSite/"
+       target="_blank" rel="noopener noreferrer">Portfolio</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:kirill.kovalevski.qa@gmail.com">Email</a>
+  </footer>
+
+  <script>
+    const resumes = {
+      he: {
+        file: "./Kirill_Kovalevski_CV_HE.pdf",
+        title: "קורות חיים",
+        description: "בחר שפה לצפייה בקורות החיים.",
+        download: "הורדת קורות חיים",
+        open: "פתיחת PDF",
+        notice: "אם הקובץ אינו מוצג, ניתן לפתוח אותו בחלון חדש."
+      },
+      en: {
+        file: "./Kirill_Kovalevski_CV_EN.pdf",
+        title: "Resume",
+        description: "Select a language to view my resume.",
+        download: "Download CV",
+        open: "Open PDF",
+        notice: "If the PDF does not appear, open it in a new tab."
+      }
+    };
+
+    function changeLanguage(lang) {
+      const selected = resumes[lang];
+      if (!selected) return;
+
+      document.getElementById("section-title").textContent =
+        selected.title;
+
+      document.getElementById("section-description").textContent =
+        selected.description;
+
+      document.getElementById("download-btn").textContent =
+        selected.download;
+
+      document.getElementById("view-btn").textContent =
+        selected.open;
+
+      document.getElementById("notice").textContent =
+        selected.notice;
+
+      const download = document.getElementById("download-btn");
+      const view = document.getElementById("view-btn");
+      const viewer = document.getElementById("pdf-viewer");
+
+      download.href = selected.file;
+      view.href = selected.file;
+      viewer.src = selected.file;
+      viewer.title = lang === "he" ?
+        "Hebrew resume PDF" : "English resume PDF";
+
+      document.getElementById("he-btn").classList.toggle(
+        "active", lang === "he"
+      );
+      document.getElementById("en-btn").classList.toggle(
+        "active", lang === "en"
+      );
+
+      document.getElementById("he-btn").setAttribute(
+        "aria-pressed", String(lang === "he")
+      );
+      document.getElementById("en-btn").setAttribute(
+        "aria-pressed", String(lang === "en")
+      );
+
+      document.documentElement.lang = lang;
+      document.getElementById("section-title").dir =
+        lang === "he" ? "rtl" : "ltr";
+      document.getElementById("section-description").dir =
+        lang === "he" ? "rtl" : "ltr";
+
+      const url = new URL(window.location.href);
+      url.searchParams.set("lang", lang);
+      window.history.replaceState(null, "", url.toString());
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const initialLang =
+      params.get("lang") === "he" ? "he" : "en";
+
+    changeLanguage(initialLang);
+  </script>
+</body>
+</html>
