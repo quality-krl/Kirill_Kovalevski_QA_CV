@@ -5,7 +5,7 @@
 
 QA Engineer with hands-on experience in manual testing, REST API testing, and automation using **Python, Playwright, and Pytest**.
 
-My portfolio includes **61 collected automation test cases** and **188 manual test cases** across FreeTV and KSP, with structured test documentation, defect analysis, and risk-based testing.
+My portfolio includes **65 automated Sylius scenarios (38 UI + 27 API; 64 passed + 1 expected xfail)** and **188 manual test cases** across FreeTV and KSP, with structured test documentation, defect analysis, and risk-based testing.
 
 ---
 
@@ -28,7 +28,7 @@ My portfolio includes **61 collected automation test cases** and **188 manual te
 
 **Python · Playwright · Pytest · REST API**
 
-E-commerce QA automation project featuring **61 collected test cases** across UI and API testing.
+E-commerce QA automation project featuring **65 automated scenarios**: 38 UI and 27 API.
 
 - Modular automation framework using Page Object Model.
 - Pytest fixtures, parametrization, Faker, and Allure.
@@ -36,9 +36,9 @@ E-commerce QA automation project featuring **61 collected test cases** across UI
 - API tests covering products, cart operations, and checkout scenarios.
 - Positive, negative, and boundary test scenarios.
 - HTTP response validation and JSON parsing.
-- Documented known issues in the demo environment.
+- Verified a reproducible checkout defect: expected HTTP 422, actual HTTP 500.
 
-**Status:** In development. Test collection does not imply all tests pass.
+**Status:** Regression verified — 64 passed, 1 expected xfail.
 
 [View Sylius Automation Project](https://github.com/quality-krl/sylius-automation)
 
